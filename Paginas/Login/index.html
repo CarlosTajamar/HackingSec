@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Inicio de sesión </title>
+    <link rel="stylesheet" href="../../css/Login/style.css"> 
+  </head>
+  <body>
+
+ <!-- partial:index.partial.html -->
+<nav class="nav">
+  <a href="../index.html" class="nav-item is-active" active-color="white">Inicio</a>
+  <a href="../cartas.html" class="nav-item" active-color="white">Artículos</a>
+  <a href="index.html" class="nav-item" active-color="white">Log In</a>
+  <a href="../examen.html" class="nav-item" active-color="white">Examen</a>
+  <span class="nav-indicator"></span>
+</nav>
+<!-- partial -->
+  <script  src="../../Javascript/scripts/script.js"></script>
+    
+    <div class="login-card">
+        <h1>Inicio de sesión</h1>
+      <form>
+        <script type="text/javascript" src="../../JavaScript/scripts/login.js"></script>
+        <input type="text" name="userid" placeholder="Usuario">
+        <input type="password" name="pswrd" placeholder="Contraseña">
+        <input type="button" onclick="check(form)" name="login" class="login login-submit" value="Login">
+      </form>
+      <p></p>
+      <div class="login-help">
+        <a href="register.html">Register</a> • <a href="forgot-password.html">Contraseña olvidada</a>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <center>
+      <div class="container">
+        <p>__________________________________</p>
+        <p>&copy; HackingSec. Todos los derechos reservados. <a href=mailto:hackingsec0@gmail.com>Contáctanos</a>.</p>
+      </div>
+    </center>
+  </footer>
+</html>
