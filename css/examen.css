@@ -209,7 +209,7 @@ body:after {
   opacity: 0;
 }
 .indicator-item:last-child:after {
-  content: "COMPLETED";
+  content: "COMPLETADO";
   position: absolute;
   width: 100%;
   left: 0;
