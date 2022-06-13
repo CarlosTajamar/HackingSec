@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Artículo 4 HackingSec</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/articulos.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>Hacking<b>Sec</b></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html"> <i class="fas fa-home"></i> Inicio</a></li>
+                        
+                        <li class="menu-selected"><a href="cartas.html" class="text-menu-selected"> 
+                            <i class="fa-solid fa-file-lines"></i></i>Artículos</a></li>
+                        <li><a href="Login/index.html"> <i class="fa-solid fa-right-to-bracket"></i> </i>Log In</a></li>
+                        <li><a href="examen.html"> <i class="fa-solid fa-highlighter"></i> Examen</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+    
+    <div class="article-container-cover">
+        <div class="container-info-cover">
+            <h1>Aprende a Protegerte</h1>
+            <p>Artículos y conocimientos básicos de la seguridad informática</p>
+        </div>
+    </div>
+
+    <div class="container-content">
+        <article>
+
+            <h1>Métodos de acceso de contraseñas</h1>
+
+             <p>-Ataques phishing:<br>
+            Como ya explicamos en un artículo anterior, son técnicas que implican
+            implantación de identidad o engaños en general para acceder a datos ajenos íntimos y
+            personales
+            </p>
+
+             <p>-Keylogger:<br>
+            Son un malware que afecta al equipo, y una vez entra en este, recopila las
+pulsaciones de las teclas, es decir, mediante un algoritmo que detecta cada tecla presionada
+consigue averiguar los nombres y contraseñas de sesiones.
+            </p>
+             <p>-Ataques por fuerza bruta:<br>
+            No son los más efectivos, pero funcionan de vez en cuando
+Rompen contraseñas débiles, para empresas grandes e importantes no son tan efectivos,
+intentan una cantidad enorme de contraseñas comunes hasta dar con la buena
+Por esto es óptimo usar caracteres especiales y contraseñas complejas, lo que asociamos a
+contraseñas extensas con distintos símbolos.
+            </p>
+             <p>-Spyware:<br>
+            Funciona de distinta manera en cada dispositivo, en móviles por ejemplo es un
+malware que lo que hace es grabar la pantalla, y así se ve qué credenciales usa el dueño.
+            </p>
+
+             <p>-Vulnerabilidades en plataformas:<br>
+            Son fallos o agujeros de seguridad de las propias
+plataformas y sistemas
+Por ejemplo, si estamos usando alguna red social, y esta queda expuesta, los datos como
+usuarios y contraseñas de esta también quedan expuestos
+
+La mejor forma de prevenir estos accidentes desafortunados es crear buenas claves, obtener
+antivirus fuertes en cuanto a seguridad, y mantener nuestros equipos bien actualizados.
+            </p>
+
+
+ <img src="https://www.osi.es/sites/default/files/images/blog/cabecera_blog_autenticacion_en_dos_pasos.png" alt="">
+                <h1>Herramientas</h1>
+
+                <p>-BruteX:<br>
+            Basada en una Shell de fuerza bruta como sus ataques por diccionario, es de código
+abierto, envía grandes cantidades de contraseñas hasta dar con la clave correcta, e incluye
+muchos servicios no sólo uno, como Nmap, Hydra o DNS enum.
+            </p>
+
+               
+
+                <p>-Dirsearch:<br>
+            Herramienta avanzada basada en ataques por fuerza bruta sobre línea de
+comandos, es un escáner de rutas web AKA, sus ataques los lanza hacia directorios y archivos
+en servidores web
+Está escrita en Python para compatibilidad con proyectos y scripts avanzados
+Al igual que otras herramientas pierden eficiencia en el escaneo recursivo, este no lo hace,
+esto es un punto a su favor.
+            </p>
+
+                <p>-Callow:<br>
+            Esta herramienta inicia sus ataques por los inicios de sesión, es cómodo, simple y fácil
+de usar, pues está escrito en Python al igual que muchas otras
+Por así decirlo, está hecha para que la usen novatos o personas inexpertas en estos ámbitos,
+así es como empiezan.
+            </p>
+
+            <p>-SSB:<br>
+            De las más rápidas y sencillas también, pero se aplica a servidores SSH de fuerza bruta.
+            </p>
+
+            <p>-Patator:<br>
+            Usos múltiples y flexibles, se usa como un script de ataque para obtener contraseñas
+También escrito en Python, está hecha mediante subprocesos, realizan de manera automática
+penetraciones ya sea FTP, SSH, SMTP, MySQL, Telnet, DNS, IMAP, LDAP…
+            </p>
+
+            <p>-Hashcat:<br>
+            Esta no es para ataques en específico, pero se puede usar para ello, ya que todo lo
+bueno se usa con malas intenciones a veces, pues eso es lo que sucede con esta herramienta,
+aunque como tal no es para atacar, algunos hackers así la usan, por eso he decidido ponerla en
+el artículo
+Sirve para recuperar contraseñas, tanto en Linux, Windows o OS X, es compatible con
+muchísimos algoritmos HASH
+Se divide en dos, basada en CPU o en GPU
+La de GPU tarda menos en descifrar contraseñas, pero la CPU puede descifrar cualquier
+algoritmo más rápido y GPU no
+Es declarad el descifrador de contraseñas más rápido del mundo.
+            </p>
+        </article>
+
+        <div class="container-aside">	
+
+            <aside>
+                <img src="https://staticupthemedia.s3.amazonaws.com/upload/errores-mas-comunes-que-comprometen-seguridad-empresas-como-prevenirlos-471x250.jpg" alt="">
+                <h2>Top Antivirus</h2>
+                <p>Un antivirus es un tipo de software que se utiliza para evitar...</p>
+                <a href="p2.html"><button>leer más</button></a>
+            </aside>
+
+            <aside>
+                <img src="https://mundo-hackers.weebly.com/uploads/9/8/5/0/98506118/phishing_orig.jpg" alt="">
+                <h2>Métodos phising</h2>
+                <p>Las técnicas phishing son usadas para engañar a cualquier usuario informático que ande navegando por algún lugar... </p>
+                <a href="p6.html"><button>leer más</button></a>
+                
+            </aside>
+
+            <aside>
+                <img src="https://media.kasperskydaily.com/wp-content/uploads/sites/87/2014/04/05212201/hash.jpg" alt="">
+                <h2>Métodos de acceso de contraseñas</h2>
+                <p>Como ya explicamos en un artículo anterior, son técnicas que implican implantación de identidad...</p>
+                <a href="p4.html"><button>leer más</button></a>
+            </aside>
+
+        </div>
+    </div>
+
+    <div class="container-footer">	
+
+        <footer>
+            <div class="logo-footer">
+             <!-- Código de instalación Cliengo para carlostajamar.github.io --> <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/629e081cf464ca002a353743/629e081df464ca002a353746.js?platform=view_installation_code'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
+
+
+
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-carlostajamar-github-io-hackingsec.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-carlostajamar-github-io-hackingsec.disqus.com/count.js" async></script>
+
+
+
+            </div>
+
+            <hr>
+            <h4>© 2022 HackingSec - Todos los Derechos Reservados</h4>
+
+        </footer>
+
+    </div>
+
+</div>
+
+    <script src="../JavaScript/Articulos/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Artículo 5 HackingSec</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/articulos.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>Hacking<b>Sec</b></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html"> <i class="fas fa-home"></i> Inicio</a></li>
+                        
+                        <li class="menu-selected"><a href="cartas.html" class="text-menu-selected"> 
+                            <i class="fa-solid fa-file-lines"></i></i>Artículos</a></li>
+                        <li><a href="Login/index.html"> <i class="fa-solid fa-right-to-bracket"></i> </i>Log In</a></li>
+                        <li><a href="examen.html"> <i class="fa-solid fa-highlighter"></i> Examen</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+    
+    <div class="article-container-cover">
+        <div class="container-info-cover">
+            <h1>Aprende a Protegerte</h1>
+            <p>Artículos y conocimientos básicos de la seguridad informática</p>
+        </div>
+    </div>
+
+    <div class="container-content">
+        <article>
+
+            <h1>Algoritmos hash</h1>
+
+            <p> Los algoritmos hash son algoritmos usados para la protección en criptografía, es decir, la
+            protección en cuanto a robos de contraseñas, y estos son algunos de los más populares y
+            recomendados:
+            </p>
+
+              <p>-Scrypt (KDF): <br>
+            Permite a programador aumentar o disminuir variables del nivel se seguridad,
+            esto significa que puede ajustarlo.
+            </p>
+
+              <p>-bcrypt: <br>
+            Tiene la misma función que cualquier otro algoritmo hash, pero con la peculiaridad de
+            que es inmune a ataques de diccionario, siendo uno de los pocos con esta característica.
+            </p>
+
+              <p>-Argo2 (KDF): <br>
+            Fue ganador del concurso de descifrado de contraseñas, es muy resistente a
+ataques cracking en la GPU, está lo suficientemente optimizado como para resistir gran
+cantidad de ataques.
+            </p>
+
+              <p>-sha512crypt: <br>
+            Se compone de varias funciones hash, sha-224, 256, 384, y 512. SHA es una
+familia de algoritmos, lo que indica que no sólo consta del modelo 512.
+Permite protegerse de todo tipo de ataques, ya sea spyware, malware, ataques por
+diccionario, y sobre todo funciona muy bien contra técnicas phising.
+            </p>
+
+              <p>-PBKDF2 (KDF): <br>
+            es fácil de explicar, gracias a este algoritmo podemos desechar una contraseña
+que ta habíamos filtrado por cualquier razón, y crear una nueva a partir de esta que nos sirve y
+ay no la conocerá nadie
+Por ejemplo, un usuario nos manda una contraseña, no la guardaremos como texto plano, lo
+que haremos será generar una nueva a partir de la anterior que nos ha mandado este usuario,
+la creamos desechando la anterior, es una especie de cambio.
+            </p>
+
+                <h1>Curiosidades acerca de algoritmos HASH:</h1>
+
+                <p>-MD2:<br> fue una de las primeras funciones hash criptográficas que surgieron, no fue la primera,
+                pero se acerca
+-Ronald Rivest:<br> es la persona a la que se le atribuye el mérito de estos algoritmos en el año
+1989, fue fundamental para la época, pues no es lo mismo aquellos años que casi no contaban
+con algoritmos seguros que ahora que podríamos decir incluso que nos sobran<br>
+-Posteriormente surgió MD5, que no ha quedado obsoleta, de hecho, sigue usando en algunos
+sistemas donde la seguridad no es fundamental</p>
+                <img src="https://programmerclick.com/images/520/f4544548b29c7010fcecd1b520479c20.JPEG" alt="">
+                <h1>Funcionamiento</h1>
+
+                <p>-Estas funciones HASH funcionan gracias a procesos matemáticos y lógicos
+La idea para que se entienda un poco, es que esos procesos matemáticos pasan al software
+para ejecutarlos desde aquí
+
+Vamos a poner un ejemplo sencillo, ¿cómo se hace un pastel? Con ciertos ingredientes, lo que
+serían los “ingredientes” son la entrada de datos
+Después de esto, al preparar el pastel, en vez de esa preparación sería el codificar los datos
+(ingredientes), después de tenemos nuestro pastel listo
+De tal forma que la preparación que hemos hecho con los procesos matemáticos y lógicos
+concluye en un algoritmo que tiene características únicas e irrepetibles, lo único que pasaría
+ahora es que, si lo pensamos, sería imposible llevar este proceso a contrario, al orden
+contrario.
+No hay forma de llevar el pastel a su estado inicial, me refiero, a cuando no era un pastel sino
+simplemente ingredientes crudos sin preparación alguna, y por eso esta es la forma absoluta
+de hacer un algoritmo HASH de manera adecuada </p>
+
+        </article>
+
+        <div class="container-aside">	
+
+            <aside>
+                <img src="https://staticupthemedia.s3.amazonaws.com/upload/errores-mas-comunes-que-comprometen-seguridad-empresas-como-prevenirlos-471x250.jpg" alt="">
+                <h2>Top Antivirus</h2>
+                <p>Un antivirus es un tipo de software que se utiliza para evitar...</p>
+                <a href="p2.html"><button>leer más</button></a>
+            </aside>
+
+            <aside>
+                <img src="https://mundo-hackers.weebly.com/uploads/9/8/5/0/98506118/phishing_orig.jpg" alt="">
+                <h2>Métodos phising</h2>
+                <p>Las técnicas phishing son usadas para engañar a cualquier usuario informático que ande navegando por algún lugar... </p>
+                <a href="p6.html"><button>leer más</button></a>
+                
+            </aside>
+
+            <aside>
+                <img src="https://media.kasperskydaily.com/wp-content/uploads/sites/87/2014/04/05212201/hash.jpg" alt="">
+                <h2>Métodos de acceso de contraseñas</h2>
+                <p>Como ya explicamos en un artículo anterior, son técnicas que implican implantación de identidad...</p>
+                <a href="p4.html"><button>leer más</button></a>
+            </aside>
+
+        </div>
+    </div>
+
+    <div class="container-footer">	
+
+        <footer>
+            <div class="logo-footer">
+             <!-- Código de instalación Cliengo para carlostajamar.github.io --> <script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/629e081cf464ca002a353743/629e081df464ca002a353746.js?platform=view_installation_code'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
+
+
+
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-carlostajamar-github-io-hackingsec.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-carlostajamar-github-io-hackingsec.disqus.com/count.js" async></script>
+
+
+
+            </div>
+
+            <hr>
+            <h4>© 2022 HackingSec - Todos los Derechos Reservados</h4>
+
+        </footer>
+
+    </div>
+
+</div>
+
+    <script src="../JavaScript/Articulos/script.js"></script>
+</body>
+</html>
